@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://stck8a46m77v"]
+
+[ext_resource type="Script" path="res://IkSystem.cs" id="1_siy7c"]
+[ext_resource type="Script" path="res://Bone.cs" id="2_oxngl"]
+
+[node name="IKSystem" type="Node2D"]
+script = ExtResource("1_siy7c")
+
+[node name="Bone1" type="Sprite2D" parent="."]
+script = ExtResource("2_oxngl")
+
+[node name="Bone2" type="Sprite2D" parent="."]
+script = ExtResource("2_oxngl")
